@@ -35,6 +35,13 @@ alias vim="nvim"
 ```
 
 step 6:
+install some fancy font so we can use the noice icons in the status bar
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
+step 7:
 your journey to the darkside is complete
 
 ![dark side gif](https://media.giphy.com/media/LSmULmByAQHQs/giphy.gif)
