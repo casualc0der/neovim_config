@@ -1,5 +1,6 @@
 return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
+	use 'fatih/vim-go'
 	use 'tpope/vim-commentary'
 	use 'tpope/vim-dadbod'
 	use 'tpope/vim-fugitive'
