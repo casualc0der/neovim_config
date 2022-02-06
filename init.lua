@@ -1,4 +1,4 @@
-require('keybinds')
 require('settings')
 require('packages')
--- hello world --
+require('keybinds')
+require('lspconfig').solargraph.setup{}

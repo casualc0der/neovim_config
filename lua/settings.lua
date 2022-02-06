@@ -10,5 +10,5 @@ vim.o.hidden = true
 -- noice linebreaks
 vim.o.linebreak = true
 
--- oh thank u
+-- turn off highlight search
 vim.o.hlsearch = false

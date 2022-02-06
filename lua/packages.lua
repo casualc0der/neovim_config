@@ -7,4 +7,13 @@ return require('packer').startup(function()
 	use 'tpope/vim-dispatch'
 	use 'tpope/vim-sensible'
 	use 'tpope/vim-vinegar'
+	use 'neovim/nvim-lspconfig'
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate'
+	}
+	use {
+		'nvim-telescope/telescope.nvim',
+		requires = { {'nvim-lua/plenary.nvim'} }
+	}
 end)
