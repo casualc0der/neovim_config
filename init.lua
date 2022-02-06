@@ -3,4 +3,4 @@ require('packages')
 require('keybinds')
 require('lspconfig').solargraph.setup{}
 require('completion')
-require('lualine').setup()
+require('lualine').setup{ options = { theme = 'dracula' } }

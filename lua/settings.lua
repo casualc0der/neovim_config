@@ -12,3 +12,6 @@ vim.o.linebreak = true
 
 -- turn off highlight search
 vim.o.hlsearch = false
+
+-- turn off the default status line
+vim.o.showmode = false
