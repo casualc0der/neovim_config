@@ -37,7 +37,7 @@ alias vim="nvim"
 step 6:
 your journey to the darkside is complete
 
-![dark side gif](https://tenor.com/baldN.gif)
+![dark side gif](https://media.giphy.com/media/LSmULmByAQHQs/giphy.gif)
 
 ---
 setup telescope pickers
