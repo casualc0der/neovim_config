@@ -21,7 +21,6 @@ clone this repo into your ~/.config directory (make one if it doesn't exist)
 cd ~/.config && git clone git@github.com:casualc0der/neovim_config.git
 ```
 
-
 step 4:
 install all of the packages
 
@@ -30,7 +29,15 @@ nvim ~/.config/lua/packages -> :PackerInstall
 ```
 
 step 5:
-that should be it!
+set an alias for vim -> neovim. Add the below to .zshrc / .bashrc
+```
+alias vim="nvim"
+```
+
+step 6:
+your journey to the darkside is complete
+
+![dark side gif](https://tenor.com/baldN.gif)
 
 ---
 setup telescope pickers
