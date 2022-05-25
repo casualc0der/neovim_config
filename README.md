@@ -25,7 +25,10 @@ step 4:
 install all of the packages
 
 ```
-nvim ~/.config/lua/packages -> :PackerInstall
+nvim ~/.config/lua/packages -> 
+:PackerCompile
+:PackerClean
+:PackerInstall
 ```
 
 step 5:
